@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+      <title>tester</title>
+      <style>
+          
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body, html{
+    display: block;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Georgia, Serif;
+    overflow: auto;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+div{
+height: auto;
+border:5px solid blue;
+}
+span{}
+div{
+    display: block;
+    border: 0;
+    padding: 0;
+    margin: 0;    
+}
+#navbar div{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+    background-position: left top;
+    background-color:black;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+#navbar ul{
+    color: white;            
+}
+#navbar li{
+    display: inline-block;
+    margin: 10px;
+  
+}
+#navbar input{
+    width: 60%;
+    float: left;
+    margin: auto;
+}
+            #navbar button{
+                content: "";
+                width: 40%;
+              float: right;
+                
+          }
+            #content{
+                position: relative;
+                top: 0;
+                clear: both;
+
+                height: auto;
+                clear:both;
+
+            }
+            #content img{
+                display:block;
+                margin: auto;
+            }
+            #footer{
+                position: relative;
+                bottom: 0;
+                clear:both;
+                background-image: url("images/line.PNG") ;
+
+                width: 100%;
+            }
+</style>
+  </head>
+  <body>
+      <div class="container-fluid" id="main">
+          
+        <div class="container-fluid" id="navbar">
+            <nav class="navbar navbar-default" >
+             
+                 
+                <div class="navbar-header">
+                    <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+                  <a class="navbar-brand" href="#"> 
+                    <img alt="Brand" src="images/pookie.jpg"  style=" margin: auto; width:30%">
+                  </a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button> 
+                     </div>  <!-- /.col1 -->
+                    
+                     <div class="col-lg-7 col-md-7 col-sm-7 col-xs-8">
+      <ul class="nav navbar-nav navbar-left">
+        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Contact us</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sevices <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+                         </div><!-- col2 -->
+                        <div class="clearfix visible-xs-block"></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+      <form class="navbar-form navbar-right">
+        <div class="input-group" style="border-color:yellow; width:100%">
+            
+          
+          <input type="text" class="form-control" placeholder="Search">
+        
+        <button type="submit" class="btn btn-default">Submit</button>
+            </div>
+      </form>
+         </div><!-- /.col3 -->
+             </div>  <!-- /.row -->
+                  </div><!-- /.navbar-collapse -->
+               </nav>
+              </div>  <!-- end of navbar -->
+                
+              
+            <div class="jumbotron text center" id="content">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+                        <h3>We design memes</h3> 
+        <p>Enjoy weekend with this images that attact a positive mood and happy feelings</p>
+        <img src="images/memes.jpg" class="inline-block" alt="memes" style="overflow: auto" width="100%">
+                    </div><!--  end of left col -->
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                        <img class="inline-block" src="images/shoes.jpg" height="350px" style="margin: auto; width:80%;">
+            <span class="pull-left" style="max-width:50%">
+                <h3>Shoes available for sale</h3>
+                <p>this shoes have a great style and a fantastic confortability. They can be worn in almost any season. </p>
+            </span>
+            <span class="pull-right" style="max-width:50%">
+            <h3>Painting of the week</h3>
+            <img src="images/pookie.jpg" width="40%"  ></span>
+                    </div><!--  end of center col -->
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                        <img src="images/tom.jpg" width="50%" syle="align:center">
+            <h3>We do image editing</h3>
+            <p>We have professional who have studites in fine art and digital media. dealing in all sort of media. we can help you capute your dreams.</p>
+                    </div><!--  end of right col -->
+                
+                </div><!-- end of row -->
+          </div><!-- end of content -->
+           <div class="container" id="footer">
+               &copy;Wanjao
+          </div><!--end of footer -->
+          </div><!-- end of main -->
+      
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
